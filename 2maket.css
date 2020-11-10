@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* #fbfcfd */
+    z-index: 1;
+    /* overflow-x: hidden;  */
+}
+.content {
+  height: 2000px;
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #deefed;
+  position: relative;
+  top: 50px;
+  borde: 8px;
+  border-left-style: dashed;
+  border-right-style: dashed;
+  border-color: #93a7a6;
+  z-index: 4;
+
+
+}
+.upblock {
+  background-color: #bec9ca;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+}
+.logo0 {
+  width: 150px;
+  height: 55px;
+  background-color:#93a7a6;
+  position: fixed;
+  z-index: 6;
+  right: 25px;
+  top: -5px;
+}
+.logo {
+  position: fixed;
+  right: 50px;
+  top: 10px;
+  font-family: sans-serif;
+  font-size: 23px;
+  background: none;
+  font-weight: bold;
+  color: #deefed;
+  z-index: 7;
+  text-decoration: none;
+}
+p, h2, ul {
+  font-family: sans-serif;
+  font-size: 23px;
+  color:#93a7a6;
+}
+ul {
+  list-style-type: none;
+  color:#93a7a6;
+  width: 100%;
+}
+.logo1 {
+  width: 270px;
+  font-family: sans-serif;
+  font-size: 30px;
+  color:#93a7a6;
+  font-weight: bolder;
+  padding-bottom: 30px;
+  border-width: 5px;
+  border-style: dashed;
+  padding-top: 20px;
+  padding-left: 15px;
+
+}
+a:not(.logo) {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 23px;
+  color:#93a7a6;
+
+}
+.facti {
+  position: absolute;
+  left: 500px;
+  top: 60px;
+  width: 900px;
+}
+img {
+  width: 250px;
+  height: 300px;
+}
+.h1 {
+  position: relative;
+  float: left;
+  width: 270px;
+  top: -40px;
+  right: 200px;
+  position: relative;
+  z-index: 2;
+  margin-left: 15px;
+  margin-bottom: 50px;
+
+}
+.open {
+  /* width: 300px;
+  height: 200px; */
+
+  border: 15px;
+  border-width: 3px;
+  border-style: dashed;
+  border-color: #93a7a6;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* padding-left: 10px;
+  position: absolute;
+  left: 30px; */
+  font-weight: bolder;
+}
+li {
+    padding-top: 10px;
+}
+/* #tema {
+  position: absolute;
+  top: 160px;
+  left: 30px;
+} */
+table {
+  width: 300px;
+  padding-top: 20px;
+}
+td {
+  padding-top: 10px;
+}
